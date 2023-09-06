@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Meta code for responsive webpage  -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Google Font  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <!-- FontAwesome Icon -->
+    <link rel="stylesheet" href="//stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+        rel="stylesheet" />
+    <title>University Web Design</title>
+</head>
+
+<body>
+    <!--Sub-Header section -->
+    <section class=" sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png" alt="logo"></a>
+            <div class="nav-links" id="nav-links">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Contact Us</h1>
+    </section>
+
+    <!-- Location Section -->
+    <section class="location">
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30546.795246181817!2d96.11627089517269!3d16.858601593588226!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30c1949d96fcfbf5%3A0x8b1fa8c5a01c9a27!2sHotel%20Parami!5e0!3m2!1sen!2smm!4v1687533899260!5m2!1sen!2smm"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+    <!-- contact Us Section -->
+    <section class="contact-us">
+        <div class="row">
+            <div class="contact-col">
+                <div>
+                    <i class="fa fa-home"></i>
+                    <span>
+                        <h5>Minhal,Sitkwin,West Bago</h5>
+                        <p>Mogok</p>
+                    </span>
+                </div>
+
+                <div>
+                    <i class="fa fa-phone"></i>
+                    <span>
+                        <h5>+95882689334</h5>
+                        <p>Monday to Friday. 9AM to 6PM</p>
+                    </span>
+                </div>
+
+                <div>
+                    <i class="fa fa-envelope-o"></i>
+                    <span>
+                        <h5>zarninaing423@gmial.com</h5>
+                        <p>Email Us Your Query</p>
+                    </span>
+                </div>
+            </div>
+
+            <div class="contact-col">
+                <from class="action">
+                    <input type="text" placeholder="Enter Your Name" required>
+                    <input type="text" placeholder="Enter Your Email" required>
+                    <input type="text" placeholder="Enter Your Subject" required>
+                    <textarea  rows="8">Message</textarea>
+                <button type="submit" class="hero-btn red-btn">Send Message</button>
+                </from>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Footer Section -->
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>
+            We are online learning platform where you can join form anywhere.
+            We are online learning platform where you can join form anywhere.
+            We are online learning platform where you can join form anywhere.
+        </p>
+
+        <div class="icon">
+            <i class="fa fa-facebook fa-bounce"></i>
+            <i class="fa fa-twitter fa-bounce"></i>
+            <i class="fa fa-instagram fa-bounce"></i>
+            <i class="fa fa-apple fa-bounce"></i>
+            <i class="fa fa-google fa-bounce"></i>
+        </div>
+        <p style="color: black;">Coursed By Self-Studying Project</p>
+    </section>
+
+
+    <script type="text/javascript" src="index.js"></script>
+</body>
+
+</html>
